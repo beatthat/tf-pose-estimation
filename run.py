@@ -49,7 +49,7 @@ if __name__ == '__main__':
     elapsed = time.time() - t
 
     logger.info('inference image: %s in %.4f seconds.' % (args.image, elapsed))
-
+    # logger.info('human result= %s' % humans)
     image = TfPoseEstimator.draw_humans(image, humans, imgcopy=False)
 
     try:

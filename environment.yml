@@ -1,0 +1,9 @@
+
+dependencies:
+    - python=3.6
+    - pip
+    - cython
+    - numpy
+    - opencv
+    - tensorflow-gpu
+    - swig
